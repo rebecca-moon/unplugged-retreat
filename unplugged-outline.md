@@ -1,6 +1,6 @@
 unplugged-outline
 
-Home Page
+HOME PAGE
 
 Header
     logo
@@ -36,3 +36,7 @@ Footer
         -Headline text
         -social icons
     copyright
+
+
+ABOUT PAGE
+
