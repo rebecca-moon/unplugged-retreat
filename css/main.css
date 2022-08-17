@@ -90,7 +90,7 @@ textarea {
 body {
   display:flex;
   flex-flow: row wrap;
-  width: 100%;
+  max-width: 1200px;
 }   
 /* ----------------------- Base Header - Footer Styles ---------------------- */
 header,
@@ -101,11 +101,20 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content:center;
   align-items:center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+header .header-divider {
+  width: 100%
 }
 
 header nav {
@@ -113,12 +122,20 @@ header nav {
   justify-content:center;
   align-items:center;
   flex-flow: row wrap;
+  width: 60%;
+  padding: 15px 0;
 }
 
 header nav ul {
   display: flex;
   justify-content:center;
   align-items:center;
+  width: 30%;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
 footer .social-icons {
@@ -133,6 +150,14 @@ footer .social p {
   align-items:center;
 }
 
+footer p {
+  margin: 0;
+}
+
+.copyright {
+  padding: 0;
+}
+
 /* ------------------------ Main --------------------- */
 
 /* ---------------------- Home Page ------------------ */
@@ -140,6 +165,7 @@ footer .social p {
   display: flex;
   justify-content:center;
   align-items:center;
+  padding: 50px 0;
 }
 
 aside {
@@ -147,6 +173,7 @@ aside {
   justify-content:center;
   align-items:center;
   flex-flow: row wrap;
+  padding: 25%;
 }
 
 .features {
@@ -155,11 +182,20 @@ aside {
   align-items:center;
 }
 
+.features h2 {
+  padding: 50px 0;
+}
+
+.features p {
+  margin: 0;
+}
+
 .features .features-items {
   display: flex;
   justify-content:center;
   align-items:center;
   flex-flow: row wrap;
+  width: 55%;
 }
 
 .reviews {
@@ -167,6 +203,11 @@ aside {
   justify-content:center;
   align-items:center;
   flex-flow: row wrap;
+  width: 90%;
+}
+
+.reviews article h2 {
+  padding: 50px 0 20px 0;
 }
 
 /* ----------------------------- About Page ------------------------ */
@@ -176,6 +217,7 @@ aside {
   justify-content:center;
   align-items:center;
   flex-flow: row wrap;
+  padding: 50px;
 }
 
 .general-contact {
@@ -183,6 +225,7 @@ aside {
   justify-content:center;
   align-items:center;
   flex-flow: row wrap;
+  padding: 50px;
 }
 
 /* -------------------------------- FAQ Page -------------------------- */
@@ -199,6 +242,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 50px 0;
 }
 
 
