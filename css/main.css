@@ -132,7 +132,7 @@ img {
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -163,6 +163,14 @@ header .content-wrapper {
   align-items:center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header .header-divider {
@@ -227,6 +235,8 @@ footer p {
   padding: 50px 0;
   background-image: url('../img/jake-melara-30679-unsplash.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 aside {
@@ -268,6 +278,8 @@ input[type=button] {
   display: flex;
   justify-content:center;
   align-items:center;
+  background-image: url("../img/rawpixel-800820-unsplash1.jpg") center no-repeat;
+  background-size: cover;
 }
 
 .features h2 {
