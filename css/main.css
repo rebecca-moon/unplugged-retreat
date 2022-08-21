@@ -562,6 +562,10 @@ input[type=button] {
     width: 45%;
   }
 
+  .map figure {
+    padding: 50%;
+  }
+
   .general-contact .content-wrapper h2 {
     width: 80%;
   }
@@ -633,9 +637,13 @@ input[type=button] {
 
   /* ------------------------ About Page ------------------------- */
 
-  .mission-statement h2 {
+  .mission-statement h2 
     .contact-section .content-wrapper h2 {
       width: 100%;
+    }
+
+    .map figure {
+      padding: 40%;
     }
 
     /* ----------------------- FAQ Page --------------------------- */
