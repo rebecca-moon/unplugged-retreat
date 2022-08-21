@@ -87,11 +87,61 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General Styles */
+
+html {
+  font-size: 16px;
+}
+
 body {
   display:flex;
   flex-flow: row wrap;
   max-width: 1200px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
 }   
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style:normal;
+}
+
+.content-wrapper {
+
+}
+
 /* ----------------------- Base Header - Footer Styles ---------------------- */
 header,
 footer {
@@ -471,6 +521,10 @@ aside {
 
   .content-wrapper {
     max-width: 960px;
+  }
+
+  header {
+    width: 100%;
   }
 
   /* Hero */
