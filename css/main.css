@@ -128,7 +128,7 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
@@ -225,6 +225,8 @@ footer p {
   justify-content:center;
   align-items:center;
   padding: 50px 0;
+  background-image: url('../img/jake-melara-30679-unsplash.jpg');
+  background-size: cover;
 }
 
 aside {
